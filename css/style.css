@@ -479,3 +479,48 @@ footer {
 .footer__contacts-img {
   margin-right: 10px;
 }
+
+@import 'css/media.css';
+
+@media (max-width: 991px) {
+  .menu {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__inner {
+    display: block;
+    text-align: center;
+  }
+  .menu {
+    margin-top: 50px;
+  }
+
+  .menu__list {
+    justify-content: space-evenly;
+  }
+
+  .menu__item + .menu__item {
+    padding: 0;
+  }
+
+  .menu__link {
+    padding: 25px 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  .menu {
+    margin-top: 40px;
+  }
+
+  .menu__list {
+    justify-content: space-between;
+  }
+
+  .menu__link {
+    padding: 20px 5px;
+    font-size: 13px;
+  }
+}
