@@ -520,7 +520,7 @@ footer {
   }
 
   .menu__link {
-    padding: 20px 5px;
-    font-size: 13px;
+    padding: 20px 0;
+    font-size: 12px;
   }
 }
